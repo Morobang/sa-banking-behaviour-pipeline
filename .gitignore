@@ -1,0 +1,24 @@
+# Data files — never commit
+data/
+*.csv
+*.parquet
+*.delta
+*.json
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+venv/
+.venv/
+
+# Databricks
+.databricks/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
